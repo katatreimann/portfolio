@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbf6f3;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(68, 67, 67);
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Style for the card and start button */
+.card-container {
+    width: 700px;
+    height: 500px;
+    background-color: #dbf6f3;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px 0;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 10%;
+}
+
+.start-button {
+    background-color: #C1E0DD;
+    border: none;
+    padding: 20px 40px;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the memory game container */
+.memory-game-container {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 600px;
+}
+
+img {
+    height: 30%;
+    margin: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+
+/* Style for the winning container */
+.winning-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*  BACK BUTTON  */
+
+.back-button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+}
+
+
+/*  media query  */
+
+@media only screen and (max-width:769px) {}
+
+
+@media only screen and (max-width:481px) {
+     /* Style for the card and start button */
+  .card-container {
+    width: 400px;
+    height: 300px;
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .start-button {
+    margin-top: 40px;
+  }
+
+  /* Style for the memory game container */
+  .memory-game-container {
+    width: 320px;
+    height: 480px;
+  }
+
+  .grid {
+    height: 280px;
+    width: 320px;
+  }
+
+  img {
+    height: 20%;
+    margin: 8px;
+  }
+
+  .winning-container {
+    top: 20%; 
+}
+
+}
+ 
+
+
+@media only screen and (max-width:320px) {
+     
+      /* Style for the card and start button */
+  .card-container {
+    width: 300px;
+    height: 300px;
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .start-button {
+    padding: 15px 30px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+/* Style for the winning container */
+  .winning-container {
+    padding: 30px;
+}
+} 

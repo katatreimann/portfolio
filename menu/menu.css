@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+body {
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+main {
+  display: inline-block;
+  padding: 3rem 8rem;
+  background-color: #353535aa;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+h1,
+h2 {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style-position: inside;
+  list-style: none;
+}
+
+.fa-solid {
+  color: rgba(243, 230, 0, 0.5);
+}
+
+/*  BACK BUTTON  */
+
+.back-button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+  color: rgba(243, 230, 0);
+  text-decoration: none;
+}

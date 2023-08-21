@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <a class="back-button" href="file://wsl.localhost/Ubuntu/root/LIFT/index.html"><i class="fas fa-arrow-left"></i></a>
+        <h1>Herb Gallery</h1>
+    
+
+    <div class="container">
+
+        <div class="card">
+            <div class="pic">
+                <img src="https://images.pexels.com/photos/4207793/pexels-photo-4207793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Thyme">
+            </div>
+            <div class="content">
+                <h3>Thyme</h3>
+                <p>Thyme (Thymus vulgaris) is a fragrant and versatile herb known for its earthy and slightly minty flavor. Native to the Mediterranean region, thyme has been cherished for its culinary, medicinal, and aromatic properties for centuries.</p>
+                <br>
+                <p>Read more <a href="https://en.wikipedia.org/wiki/Thyme" target="_blank">here</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="https://images.pexels.com/photos/4750309/pexels-photo-4750309.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rosemary">
+            </div>
+            <div class="content">
+                <h3>Rosemary</h3>
+                <p>Rosemary (Rosmarinus officinalis) is a fragrant and versatile herb that has been cherished for its culinary, medicinal, and aromatic qualities for centuries. With needle-like leaves and delicate blue flowers, rosemary is a native of the Mediterranean region, but its popularity has spread worldwide.</p>
+                <br>
+                <p>Read more <a href="https://en.wikipedia.org/wiki/Rosemary" target="_blank">here</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="https://images.pexels.com/photos/4599920/pexels-photo-4599920.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Peppermint">
+            </div>
+            <div class="content">
+                <h3>Peppermint</h3>
+                <p>Peppermint (Mentha × piperita) is a refreshing and aromatic herb renowned for its cool and invigorating flavor. A hybrid of watermint and spearmint, peppermint has a long history of culinary, medicinal, and therapeutic use.</p>
+                <br>
+                <p>Read more <a href="https://en.wikipedia.org/wiki/Peppermint" target="_blank">here</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="https://images.pexels.com/photos/10981727/pexels-photo-10981727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Sage">
+            </div>
+            <div class="content">
+                <h3>Sage</h3>
+                <p>Sage (Salvia officinalis) is a fragrant and flavorful herb known for its earthy and slightly peppery taste. Originating from the Mediterranean region, sage has a rich history of culinary, medicinal, and cultural significance.</p>
+                <br>
+                <p>Read more <a href="https://en.wikipedia.org/wiki/Salvia_officinalis" target="_blank">here</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+
+
+    <script>
+        // Select all elements with class name 'more'
+        let more = document.querySelectorAll('.more');
+        // Loop through each 'more' element and add a click event listener
+        for (let i = 0; i < more.length; i++) {
+            more[i].addEventListener('click', function () {
+                // Toggle the 'active' class on the parent node of the clicked element
+                more[i].parentNode.classList.toggle('active')
+            })
+        }
+    </script>
+</body>
+
+</html>

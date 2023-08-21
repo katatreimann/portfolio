@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <a class="back-button" href="file://wsl.localhost/Ubuntu/root/LIFT/index.html"><i class="fas fa-arrow-left"></i></a>
+    <main>
+        <h1>Calculator</h1>
+        <div>
+            <input type="text" id="operand1Input">
+            <select id="operatorSelect">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+            <input type="text" id="operand2Input">
+            <span>=</span>
+            <input type="text" id="resultInput" readonly>
+        </div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
