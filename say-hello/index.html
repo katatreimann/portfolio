@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 class="hello">Say hello!</h2>
+    <!-- <form id="contactForm">
+        <input type="email" id="emailInput" placeholder="Your email" aria-label="Your email" required>
+        <button type="submit">Submit</button>
+        <p id="thankyouMessage" class="message">Thank you! I'll be in touch.</p>
+    </form> -->
+    <form id="my-form" action="https://formspree.io/f/mqkvqble" method="POST">
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+      </form>
+
+    <script src="main.js"></script>
+
+</body>

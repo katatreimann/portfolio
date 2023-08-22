@@ -1,0 +1,41 @@
+
+.hello {
+    margin-top: 100px;
+}
+
+input,
+button {
+    padding: 0.5rem;
+    border: 1.5px solid black;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: background-color 0.25s;
+}
+
+input:hover,
+input:focus,
+button:hover,
+button:active {
+    background-color: #00ABD080;
+}
+
+button {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+.message {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+}
+
+.message.visible {
+    opacity: 1;
+    pointer-events: all;
+}
