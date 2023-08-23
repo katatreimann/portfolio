@@ -62,6 +62,19 @@ form {
     /* max-width: 50vw; */
 }
 
-.messageBox {
+/* .messageBox {
     height: 100px;
-}
+} */
+
+
+
+/*  BACK BUTTON  */
+
+.back-button {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+  }
