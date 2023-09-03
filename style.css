@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    position: fixed;
+    position:absolute;
     top: 30px;
     left: 0;
     right: 0;
@@ -149,4 +149,19 @@ hr {
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #00ABD0;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #ECFF92; /* Track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c099ea; /* Thumb color */
+  border-radius: 5px; /* Rounded corners on the thumb */
 }

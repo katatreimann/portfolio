@@ -32,7 +32,7 @@ showButton.addEventListener("click", showPokemon)
 //     nameSpan.textContent = pokemon["name"]
 //     baseExperience.textContent = pokemon["base_experience"]
 //     pokemonDiv.hidden = false
-}
+
 
 ///////////////////////////////////////
 
