@@ -1,0 +1,29 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3a0d51;
+}
+
+h1 {
+    margin: 50px 0 20px 0;
+}
+
+input {
+    border: 1.5px solid #3a0d51;
+    border-radius: 3px;
+}
+
+button {
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: #3a0d51;
+    border: none;
+    border-radius: 3px;
+    color: white;
+} */
